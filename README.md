@@ -1,4 +1,3 @@
-# Lista_Tarefas
 Tecnologias:
 
 Linguagem de programação JAVA
@@ -19,8 +18,6 @@ POST:
 Salva uma categoria: http://localhost:8080/api/categorias/salvar
 
 JSON: { "id":value, "descricao":"value" }
-
-Usuários:
 
 GET:
 Lista todos os usuários: http://localhost:8080/api/usuários/todos
@@ -48,7 +45,6 @@ Inicia uma tarefa: http://localhost:8080/api/tarefas/fazer/{id}
 Finaliza uma tarefa: http://localhost:8080/api/tarefas/finalizar/{id}
 
 POST:
-
 Salva uma tarefa: http://localhost:8080/api/categorias/salvar
 
 JSON: { "id":value, "tarefa":"value", "categorias":{"id":"value"}, "usuarios":[{"id":"value"}] }
